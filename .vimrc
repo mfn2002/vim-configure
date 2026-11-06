@@ -17,7 +17,7 @@ inoremap <expr> ' strpart(getline('.'), col('.')-1, 1) == "'" ? "\<Right>" : (ge
 
 inoremap {<CR> {<CR>}<Esc>O
 
-" ---------- Backspace deletes both characters of an empty pair ----------
+" --------- Backspace deletes both characters of an empty pair ----------
 function! s:SmartBS() abort
   let l:line = getline('.')
   let l:col  = col('.')
