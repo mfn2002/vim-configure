@@ -3,6 +3,12 @@ colorscheme desert
 set omnifunc=syntaxcomplete#Complete
 set completeopt=menuone,longest,popup
 set mouse=n
+set autoindent
+set smartindent
+set expandtab
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
 " Auto-close brackets
 inoremap ( ()<Left>
 inoremap [ []<Left>
